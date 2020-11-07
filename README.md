@@ -12,7 +12,7 @@ $ pkg install git
 
 $ git clone https://github.com/zeplizoic/FB-PERFILGuard
 
-$ cd Guardzeplizoic
+$ cd FB-PERFILGuard
 
 $ php Guardzeplizoic.php
 
