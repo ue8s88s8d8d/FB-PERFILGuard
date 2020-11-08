@@ -1,4 +1,4 @@
-<?php
+<?php//
 // geci return (csak a consolehez)
 $biru = "\e[34m";
 $kuning = "\e[33m";
