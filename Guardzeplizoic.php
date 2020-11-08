@@ -9,7 +9,7 @@ $merah = "\e[91m";
 echo "$hijau  ×============================================×\n";
 echo "$hijau  [  keszitette:  : zeplizoic                  ]\n";
 echo "$hijau  ×============================================ï¿½\n\n";
-echo "$input $magenta FB ACCOUNT GUARD TESO ERTED>> : ";
+echo "$input $magenta FB ACCOUNT GUARD TESO TOKEN >> : ";
 $token= trim(fgets(STDIN));
 $md5 = md5(time());
 $hash = substr($md5, 0, 8)."-".substr($md5, 8, 4)."-".substr($md5, 12, 4)."-".substr($md5, 16, 4)."-".substr($md5, 20, 12);
