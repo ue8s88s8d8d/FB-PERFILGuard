@@ -1,4 +1,4 @@
-<?php// 
+<?php
 // geci return (csak a consolehez)
 $biru = "\e[34m";
 $kuning = "\e[33m";
@@ -6,7 +6,10 @@ $cyan = "\e[96m";
 $magenta = "\e[35m";
 $hijau = "\e[92m";
 $merah = "\e[91m";
-;echo "$Input Your Token Facebok: "
+echo "$hijau  ×============================================×\n";
+echo "$hijau  [  keszitette:  : zeplizoic                  ]\n";
+echo "$hijau  ×============================================ï¿½\n\n";
+echo "$input $magenta Input Your Token Facebok>> : ";
 $token= trim(fgets(STDIN));
 $md5 = md5(time());
 $hash = substr($md5, 0, 8)."-".substr($md5, 8, 4)."-".substr($md5, 12, 4)."-".substr($md5, 16, 4)."-".substr($md5, 20, 12);
