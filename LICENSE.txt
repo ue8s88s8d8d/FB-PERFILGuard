@@ -1,4 +1,0 @@
-MIT License
-
-
-Copyright (c) 2020 José Fernando Ramos da Nóbrega
